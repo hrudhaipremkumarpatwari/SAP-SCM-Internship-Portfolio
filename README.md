@@ -90,6 +90,10 @@ Repository/
 
 The portfolio is designed to demonstrate reasoning, SAP functional understanding, configuration thinking, calculations, validation and documentation. Where a report describes a SAP transaction, configuration sequence, planning run, integration check or dashboard, it should be read as a practical learning/configuration blueprint unless the report explicitly identifies a real executed system result.
 
+## GitHub Profile README
+
+A recruiter-focused profile README is maintained here for use on the GitHub profile: [PROFILE-README.md](./PROFILE-README.md).
+
 ## Author
 
 **Hrudhai Prem Kumar Patwari**  
