@@ -1,0 +1,8 @@
+Period,Product,Demand_Units,Capacity_Baseline_Units,Capacity_Improved_Units,Planned_Production_Baseline_Units,Planned_Production_Improved_Units,Actual_Output_Baseline_Units,Actual_Output_Improved_Units,Material_Usage_Per_Unit,Capacity_Utilization_Baseline,Capacity_Utilization_Improved,Bottleneck_Hours_Baseline,Bottleneck_Hours_Improved
+2026-01,FG-01,920,1000,1200,900,910,920,920,2,0.92,0.7667,0,0
+2026-02,FG-01,980,1000,1200,930,965,980,980,2,0.98,0.8167,0,0
+2026-03,FG-01,1050,1000,1200,980,1035,1000,1050,2,1.0,0.875,1.0,0
+2026-04,FG-01,1100,1050,1200,1030,1080,1050,1100,2,1.0,0.9167,1.0,0
+2026-05,FG-01,1180,1050,1200,1080,1160,1050,1180,2,1.0,0.9833,2.6,0
+2026-06,FG-01,1250,1050,1200,1130,1225,1050,1200,2,1.0,1.0,4.0,1.0
+

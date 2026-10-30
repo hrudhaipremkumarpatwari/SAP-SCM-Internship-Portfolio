@@ -102,3 +102,7 @@ SAP SCM / SAP MM Learner | IT Operations Professional
 ## Portfolio Data Guide
 
 The six assessments connect as a learning sequence, while retaining their own case scopes, measures, units, and reporting periods. Read the [Portfolio Data and Comparability Guide](PORTFOLIO_DATA_GUIDE.md) before comparing or combining figures across repositories.
+
+## Supplemental training dataset
+
+A separate [single-product SCM simulation bundle](supplemental/generic-single-product-simulation/README.md) is available for spreadsheet practice. It is explicitly independent of the six Deccan Harvest assessments above and should not be used as their data source.

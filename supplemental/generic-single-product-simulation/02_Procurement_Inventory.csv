@@ -1,0 +1,8 @@
+Period,Material,Opening_Inventory_Units,Receipts_Baseline_Units,Receipts_Improved_Units,Usage_Baseline_Units,Usage_Improved_Units,Closing_Inventory_Baseline_Units,Closing_Inventory_Improved_Units,Supplier_Baseline,Supplier_Improved,Baseline_Lead_Time_Days,Improved_Lead_Time_Days,Baseline_OTD_Rate,Improved_OTD_Rate
+2026-01,RM-01,2200,1920,1940,1840,1840,2280,2300,SUP-A,SUP-B,12,7,0.9,0.96
+2026-02,RM-01,2300,1860,1930,1960,1960,2200,2270,SUP-A,SUP-B,12,7,0.9,0.96
+2026-03,RM-01,2270,1960,2070,2000,2100,2230,2240,SUP-A,SUP-B,12,7,0.9,0.96
+2026-04,RM-01,2240,2060,2160,2100,2200,2200,2200,SUP-A,SUP-B,12,7,0.9,0.96
+2026-05,RM-01,2200,2160,2320,2100,2360,2260,2160,SUP-A,SUP-B,12,7,0.9,0.96
+2026-06,RM-01,2160,2260,2450,2100,2400,2320,2210,SUP-A,SUP-B,12,7,0.9,0.96
+

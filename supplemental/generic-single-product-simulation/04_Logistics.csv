@@ -1,0 +1,8 @@
+Period,Shipments_Requested_Units,Units_Shipped_Baseline,Units_Shipped_Improved,Backorder_Baseline_Units,Backorder_Improved_Units,Network_Baseline,Network_Improved,Freight_Cost_Baseline_INR,Freight_Cost_Improved_INR,Average_Transit_Days_Baseline,Average_Transit_Days_Improved,On_Time_Shipments_Baseline_Rate,On_Time_Shipments_Improved_Rate
+2026-01,920,920,920,0,0,Direct plant-to-customer,Plant to regional DC to customer,38640,33120,5.0,4.0,0.88,0.95
+2026-02,980,980,980,0,0,Direct plant-to-customer,Plant to regional DC to customer,41160,35280,5.0,4.0,0.88,0.95
+2026-03,1050,1050,1050,0,0,Direct plant-to-customer,Plant to regional DC to customer,44100,37800,5.0,4.0,0.88,0.95
+2026-04,1100,1100,1100,0,0,Direct plant-to-customer,Plant to regional DC to customer,46200,39600,5.0,4.0,0.88,0.95
+2026-05,1180,1100,1180,80,0,Direct plant-to-customer,Plant to regional DC to customer,46200,42480,5.0,4.0,0.88,0.95
+2026-06,1250,1050,1250,200,0,Direct plant-to-customer,Plant to regional DC to customer,44100,45000,5.0,4.0,0.88,0.95
+

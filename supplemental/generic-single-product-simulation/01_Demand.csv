@@ -1,0 +1,8 @@
+Period,Actual_Demand_Units,Baseline_Forecast_Units,Improved_Forecast_Units,Baseline_Error_Units,Improved_Error_Units,Baseline_Abs_Error,Improved_Abs_Error,Unit_Price_INR
+2026-01,920,900,910,20,10,20,10,500
+2026-02,980,930,965,50,15,50,15,500
+2026-03,1050,980,1035,70,15,70,15,500
+2026-04,1100,1030,1080,70,20,70,20,500
+2026-05,1180,1080,1160,100,20,100,20,500
+2026-06,1250,1130,1225,120,25,120,25,500
+

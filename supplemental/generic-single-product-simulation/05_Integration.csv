@@ -1,0 +1,8 @@
+Period,Demand_Forecast_Units,Material_Requirement_Units,Supplier_Receipt_Units,Production_Output_Units,Finished_Goods_Available_Units,Customer_Demand_Units,Customer_Shipped_Units,Backorder_Units,Integration_Check
+2026-01,910,1820,1940,920,1070,920,920,0,PASS
+2026-02,965,1930,1930,980,1130,980,980,0,PASS
+2026-03,1035,2070,2070,1050,1200,1050,1050,0,PASS
+2026-04,1080,2160,2160,1100,1250,1100,1100,0,PASS
+2026-05,1160,2320,2320,1180,1330,1180,1180,0,PASS
+2026-06,1225,2450,2450,1200,1350,1250,1250,0,PASS
+

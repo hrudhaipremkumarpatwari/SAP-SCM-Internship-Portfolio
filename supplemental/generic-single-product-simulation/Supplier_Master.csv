@@ -1,0 +1,5 @@
+Supplier_ID,Supplier,Unit_Cost_INR,Lead_Time_Days,On_Time_Rate,Quality_Acceptance_Rate
+SUP-A,Aster Components,82,12,0.9,0.98
+SUP-B,Banyan Industrial,86,7,0.96,0.99
+SUP-C,Cedar Parts,78,18,0.84,0.96
+
