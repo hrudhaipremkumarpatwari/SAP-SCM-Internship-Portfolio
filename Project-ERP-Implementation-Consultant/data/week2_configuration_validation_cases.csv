@@ -1,9 +1,0 @@
-﻿Case_ID,Control,Illustrative_input,Expected_result,Documented_check,Evidence_type,Status
-CFG-01,Approval routing,"INR 75,000; buyer submits",Buyer approval only,Rule routes to buyer,Paper rule walkthrough,PASS
-CFG-02,Approval routing,"INR 125,000; buyer submits",Independent second approver,Rule routes to second approver,Paper rule walkthrough,PASS
-CFG-03,Segregation of duties,"Buyer self-approves INR 125,000 PO",Block self-approval,Same-user approval rejected,Paper rule walkthrough,PASS
-CFG-04,Receipt tolerance,PO 100 KG; receipt 102 KG,"At the 2% boundary, record the variance but do not hold under the stated >2% rule",Boundary remains within tolerance,Paper rule walkthrough,PASS
-CFG-05,Receipt tolerance,PO 100 KG; receipt 104 KG,Hold above illustrative 2%,Receipt held for review,Paper rule walkthrough,PASS
-CFG-06,Unit mapping,KGS→KG,Use approved crosswalk only,Approved unit resolves,Paper rule walkthrough,PASS
-CFG-07,Unit mapping,Unknown BOX,Block until owner approval,Unmapped unit blocked,Paper rule walkthrough,PASS
-CFG-08,Production release,Unresolved component shortage,Do not release order,Release blocked pending action,Paper rule walkthrough,PASS

@@ -1,6 +1,0 @@
-﻿Source_record_ID,Legacy_item_code,Description,Legacy_base_UOM,Plant_or_site,Source_status,Mock_disposition
-SRC-M001,CHL-01,Red chilli powder,KGS,PLANT-A,Active,Map to RM-CHILI; normalize KGS→KG
-SRC-M002,OIL-02,Refined oil,LITRE,PLANT-A,Active,Map to RM-OIL; LITRE→L after owner approval
-SRC-M003,PKG-03,Printed pouch,EA,PLANT-A,Active,Map to PKG-POUCH
-SRC-M004,FG-04,Finished chutney,CASE,DC-01,Active,Map to FG-CHUTNEY
-SRC-M005,CHL-01,Red chilli powder,KGS,PLANT-A,Legacy duplicate,Quarantine; owner decision required

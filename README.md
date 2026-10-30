@@ -110,4 +110,4 @@ A separate [single-product SCM simulation bundle](supplemental/generic-single-pr
 
 ## ERP Implementation Consultant subproject
 
-A separate four-week learning subproject covers ERP implementation planning, system configuration, data migration and integration testing, and post-implementation review and training. The completed Week 1 report uses a clearly hypothetical company scenario and does not claim live SAP implementation experience. [Open the Project ERP Implementation Consultant folder](Project-ERP-Implementation-Consultant/).
+A separate four-week learning subproject covers ERP implementation planning, system configuration, data migration and integration testing, and post-implementation review and training. The completed Week 1 report uses a clearly hypothetical company scenario and does not claim live SAP implementation experience. [Open the standalone Project ERP Implementation Consultant repository](https://github.com/hrudhaipremkumarpatwari/Project-ERP-Implementation-Consultant).
