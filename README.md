@@ -106,3 +106,8 @@ The six assessments connect as a learning sequence, while retaining their own ca
 ## Supplemental training dataset
 
 A separate [single-product SCM simulation bundle](supplemental/generic-single-product-simulation/README.md) is available for spreadsheet practice. It is explicitly independent of the six Deccan Harvest assessments above and should not be used as their data source.
+
+
+## ERP Implementation Consultant subproject
+
+A separate four-week learning subproject covers ERP implementation planning, system configuration, data migration and integration testing, and post-implementation review and training. The completed Week 1 report uses a clearly hypothetical company scenario and does not claim live SAP implementation experience. [Open the Project ERP Implementation Consultant folder](Project-ERP-Implementation-Consultant/).
