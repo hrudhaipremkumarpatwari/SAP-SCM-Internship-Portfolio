@@ -23,16 +23,20 @@ This subproject organizes a four-week ERP implementation consulting assignment. 
 - [Module configuration blueprint](docs/Week2_Module_Configuration_Blueprint.docx)
 - [200+ word submission description](docs/Week2_Submission_Description.md)
 - [Spreadsheet-ready configuration decision register](data/week2_configuration_blueprint.csv)
+- [Eight-case configuration rule validation register](data/week2_configuration_validation_cases.csv)
 - [Configuration and validation flow](diagrams/week2_configuration_flow.png)
+- [Illustrative configuration evidence mock-up](diagrams/week2_configuration_record_mockup.png)
 
 ## Week 3 files
 
 - [Data migration and integration testing report](docs/Week3_Data_Migration_and_Integration_Testing.docx)
 - [200+ word submission description](docs/Week3_Submission_Description.md)
 - [Source-to-target field mapping](data/week3_source_to_target_mapping.csv)
+- [Five-row sample legacy material extract](data/week3_sample_legacy_materials.csv)
 - [Opening inventory reconciliation sample](data/week3_inventory_reconciliation.csv)
 - [Integration test cases and mock results](data/week3_integration_test_cases.csv)
 - [Migration and testing flow](diagrams/week3_migration_flow.png)
+- [Illustrative migration exception mock-up](diagrams/week3_migration_exception_mockup.png)
 
 ## Week 4 files
 
@@ -41,6 +45,19 @@ This subproject organizes a four-week ERP implementation consulting assignment. 
 - [Simulated KPI scorecard and formulas](data/week4_simulated_kpi_scorecard.csv)
 - [Role-based training sessions](data/week4_training_plan.csv)
 - [Training and review cycle](diagrams/week4_training_flow.png)
+- [Simulated KPI dashboard](diagrams/week4_simulated_kpi_dashboard.png)
+
+## Evaluation-informed evidence upgrades
+
+Feedback from the separate SAP SCM internship assessments repeatedly asked for more quantitative examples, clearer process/configuration detail, visual evidence, explicit validation, and deeper interpretation. This ERP subproject addresses those recurring expectations with linked CSV datasets, worked formulas, scenario walkthroughs, control owners, acceptance criteria, process diagrams, a KPI dashboard, and separate submission descriptions. The subproject itself has not been evaluator-scored; these additions respond to themes in prior SCM feedback rather than claiming that any ERP assignment has been re-evaluated.
+
+| Prior feedback theme | Evidence added here | Boundary stated in the project |
+|---|---|---|
+| More concrete simulation data | Material extract, inventory reconciliation, migration cases, and KPI denominators | All records and results are fabricated training examples |
+| Clearer configuration detail | MM/PP-aligned decision register and eight rule walkthroughs | No ERP tenant or configuration transaction was used |
+| Diagrams or screenshots | Process diagrams, KPI dashboard, and static evidence mock-ups | Mock-ups are labeled; none is presented as a live SAP screenshot |
+| Stronger validation and integration | 10 migration/integration cases, defect/retest results, role controls, and unit-level checks | Pass rates describe designed desk checks/mock cases, not production testing |
+| Less repetition and deeper analysis | Each week has a distinct scope, inputs, formulas, findings, owners, risks, and actions | Benefit claims remain hypothetical; causation is not asserted |
 
 ## Project approach
 
