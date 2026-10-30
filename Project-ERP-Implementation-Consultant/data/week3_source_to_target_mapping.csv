@@ -1,0 +1,13 @@
+﻿Object,Legacy_field,Sample_legacy_value,Target_business_field,Transformation_or_rule,Mandarin_label,Validation_rule,Disposition
+Material,ITEM_CODE,CHL-01,Material ID,Map to RM-CHILI; preserve one canonical key,物料编号 (wùliào biānhào) / Material ID,"Unique, nonblank, approved pattern",Accept SRC-M001
+Material,DESCRIPTION,Red chilli powder,Short description,Trim spaces; retain approved English description,描述 (miáoshù) / Description,"Required, max 40 chars in this exercise",Accept
+Material,BASE_UOM,KGS,Base unit,Map KGS to KG using approved crosswalk,单位 (dānwèi) / Unit,Target unit exists; conversion reviewed,Accept after mapping
+Material,BASE_UOM,LITRE,Base unit,Map LITRE to L only after data-owner approval,单位 (dānwèi) / Unit,Unknown codes blocked pending approval,Correct in mock cycle 2
+Material,ITEM_CODE,OIL-02,Material ID,Map to RM-OIL,物料编号 (wùliào biānhào) / Material ID,"Unique, nonblank, approved pattern",Accept
+Material,ITEM_CODE,PKG-03,Material ID,Map to PKG-POUCH,物料编号 (wùliào biānhào) / Material ID,"Unique, nonblank, approved pattern",Accept
+Material,ITEM_CODE,FG-04,Material ID,Map to FG-CHUTNEY,物料编号 (wùliào biānhào) / Material ID,"Unique, nonblank, approved pattern",Accept
+Material,ITEM_CODE,CHL-01,Material ID,Repeated legacy key; quarantine duplicate SRC-M005 pending owner decision,物料编号 (wùliào biānhào) / Material ID,Duplicate check; never silently overwrite,Reject/quarantine SRC-M005
+Inventory balance,ITEM_CODE + SITE,CHL-01 + PLANT-A,Material + plant + storage location,Map to RM-CHILI / PLANT-A / RM01,库存数量 (kùcún shùliàng) / Stock quantity,Material and location must exist; unit-specific sum reconciliation,Accept 120 KG
+Inventory balance,ITEM_CODE + SITE,OIL-02 + PLANT-A,Material + plant + storage location,Map to RM-OIL / PLANT-A / RM01,库存数量 (kùcún shùliàng) / Stock quantity,Material and location must exist; unit-specific sum reconciliation,Accept 80 L
+Inventory balance,ITEM_CODE + SITE,PKG-03 + PLANT-A,Material + plant + storage location,Map to PKG-POUCH / PLANT-A / PK01,库存数量 (kùcún shùliàng) / Stock quantity,Material and location must exist; unit-specific sum reconciliation,Accept 2500 EA
+Inventory balance,ITEM_CODE + SITE,FG-04 + DC-01,Material + plant + storage location,Map to FG-CHUTNEY / DC-01 / FG01,库存数量 (kùcún shùliàng) / Stock quantity,Material and location must exist; unit-specific sum reconciliation,Accept 400 CASE

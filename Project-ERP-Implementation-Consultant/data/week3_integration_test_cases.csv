@@ -1,0 +1,11 @@
+﻿Test_ID,Scenario,Precondition,Expected_result,Initial_mock_result,Correction_or_retest,Final_mock_result
+IT-01,Create PO for approved supplier and RM-CHILI,"Supplier, material and purchasing unit mapped",PO saves with approved unit and buyer role,Pass,None,Pass
+IT-02,Receive RM-CHILI against PO,Open PO for 120 KG,Receipt quantity and reference appear in inventory,Pass,None,Pass
+IT-03,Reject unknown unit LITRE,Legacy crosswalk lacks approval,Record is blocked and logged; no silent conversion,Fail: unmapped UOM,Data owner approves LITRE→L; rerun mapping,Pass
+IT-04,Quarantine duplicate material key,SRC-M005 repeats CHL-01,Duplicate held for owner review; canonical material not overwritten,Pass,None,Pass
+IT-05,Run planning for FG-CHUTNEY,"Approved BOM, stock and demand loaded",Component proposal reflects net requirement and lead time,Pass,None,Pass
+IT-06,Convert reviewed plan to production order,Planner role; no unresolved shortages,Order released only after planner review,Pass,None,Pass
+IT-07,Issue components to order,Order released; component stock available,Issue reduces relevant component stock by recorded quantity,Pass,None,Pass
+IT-08,Receive finished production quantity,Order confirmation completed,Finished receipt adds CASE to FG-CHUTNEY inventory,Pass,None,Pass
+IT-09,Reconcile opening balances by material and UOM,Four approved balance rows,Target totals equal source totals in each UOM,Fail: 1 target unit blank,Correct unit crosswalk and reload; reconcile again,Pass
+IT-10,Check role separation and audit trace,"Buyer, approver, receiver roles assigned",User cannot approve own high-value PO; change log identifies user/time,Pass,None,Pass

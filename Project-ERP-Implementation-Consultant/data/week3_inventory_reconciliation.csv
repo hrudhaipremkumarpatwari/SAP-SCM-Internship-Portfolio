@@ -1,0 +1,5 @@
+﻿Material_ID,Description,Base_UOM,Source_qty,Target_qty_after_mock_load,Variance,Check
+RM-CHILI,Red chilli powder,KG,120,120,=D2-E2,PASS
+RM-OIL,Refined oil,L,80,80,=D3-E3,PASS
+PKG-POUCH,Printed pouch,EA,2500,2500,=D4-E4,PASS
+FG-CHUTNEY,Finished chutney,CASE,400,400,=D5-E5,PASS

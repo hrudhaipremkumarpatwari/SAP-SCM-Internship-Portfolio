@@ -1,0 +1,7 @@
+﻿KPI,Baseline_numerator,Baseline_denominator,Baseline_value,Day90_numerator,Day90_denominator,Day90_value,Formula,Interpretation_note
+Inventory record accuracy,43,50,=B2/C2,48,50,=E2/F2,Count of sampled records matching physical quantity / sampled records,Illustrative cycle-count sample; 43/50=86%; 48/50=96%
+Production schedule adherence,39,50,=B3/C3,44,50,=E3/F3,Orders completed on planned date / orders due,Illustrative order sample; 78% to 88%
+PO approval cycle time (days),260,50,=B4/C4,190,50,=E4/F4,Total elapsed calendar days for sampled approvals / POs,Illustrative mean days; lower is better (5.2 to 3.8)
+Order-entry error rate,12,200,=B5/C5,5,200,=E5/F5,Orders requiring correction / orders sampled,Illustrative sample; 6.0% to 2.5%
+Active user adoption,20,30,=B6/C6,27,30,=E6/F6,Users completing at least one assigned ERP task in period / in-scope users,Day 30 to day 90; illustrative 66.7% to 90.0%
+Training task assessment pass rate,0,0,"=IFERROR(B7/C7,0)",24,27,"=IFERROR(E7/F7,0)",Learners meeting task checklist / learners assessed,No pre-launch comparison; 24 of 27 assessed learners pass (88.9%)
