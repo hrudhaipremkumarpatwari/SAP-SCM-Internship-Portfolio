@@ -98,3 +98,7 @@ A recruiter-focused profile README is maintained here for use on the GitHub prof
 
 **Hrudhai Prem Kumar Patwari**  
 SAP SCM / SAP MM Learner | IT Operations Professional
+
+## Portfolio Data Guide
+
+The six assessments connect as a learning sequence, while retaining their own case scopes, measures, units, and reporting periods. Read the [Portfolio Data and Comparability Guide](PORTFOLIO_DATA_GUIDE.md) before comparing or combining figures across repositories.
